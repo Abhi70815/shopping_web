@@ -150,3 +150,31 @@ button:hover {
     flex-direction: column;
     gap: 40px;
 }
+@media(max-width:930px){
+    .heading{
+        font-size: 32px;
+    }
+    .logo{
+        font-size: 23px;
+    }
+    .checkout{
+        font-size: 12px;
+    }
+    
+    .list .price{
+        font-size: 12px;
+    }
+    .total{
+        font-size: 22px;
+    }
+    .tprice{
+        font-size: 20px;
+    }
+    /* .btn{
+        width: 100px;
+    } */
+    .tBtn{
+       
+        width: 100px;
+    }
+}

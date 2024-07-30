@@ -11,8 +11,8 @@ let sum=0;
 
 
 function displayCart(){
-  cart.innerHTML = '';
   cartLi.innerHTML='';
+  // cart.innerHTML='';
   lists.innerHTML='';
   total.innerHTML='';
   sum=0;
@@ -52,6 +52,7 @@ function displayCart(){
   });
   
   total.textContent=`$${sum.toFixed(2)}`;
+  localStorage.setItem("totalPay",JSON.stringify(sum));
 }
 displayCart();
 
